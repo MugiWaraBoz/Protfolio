@@ -1,0 +1,86 @@
+body {
+    background-color: #F7E6C4   ;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: #606C5D;
+    list-style: none;
+}
+
+li {
+    color: white;
+    cursor: pointer;
+}
+
+li:hover {
+    color: yellow;
+    background-color: #7d887b;
+    border-radius: 1rem;
+    padding: 0.5rem 1.5rem;
+    transition: ease-in;
+    transition: 40ms;
+}
+
+img {
+    width: 20rem;
+    height: 40rem;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.m-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+span {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem ;
+}
+
+.about-body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 5rem;
+    text-align: center;
+    background-color: #FFF4F4;
+}
+
+.text-1 {
+    padding: 2rem;
+}
+
+.github {
+    height: 50rem;
+    width: 70rem;
+}
+
+.Contact-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    background-color: #F7E6C4;
+}
+
+.footer {
+    background-color: #606C5D;
+    height: 10rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
